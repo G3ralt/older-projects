@@ -1,0 +1,24 @@
+<html>
+
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="../styles.css">
+
+
+<body class="w3-container">
+    
+        <div class="image w3-center w3-padding-128">
+        <div align="center" style=" margin: 20px; padding:20px;">
+            <form name="form" method="POST" action="/ThousandServlets/Main">                
+                <input type="hidden" name="forms" value="withdraw"/>
+                <h1 class="w3-text-white w3-margin w3-padding-10"><label>Withdraw cash from your account</label></h1><br>
+                <label>Amount:</label><br>
+                <input type="number" name="withdraw"><br><br>
+                <input type="submit" value="submit" class="w3-btn w3-padding-4 w3-red w3-large">   
+            </form>
+        </div>
+    </body>
+</html>

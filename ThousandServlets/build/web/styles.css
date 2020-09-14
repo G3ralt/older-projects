@@ -1,0 +1,10 @@
+body {
+    background-image: url('http://il8.picdn.net/shutterstock/videos/273274/thumb/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;    
+}
+
+form label {
+    color: white;
+}
